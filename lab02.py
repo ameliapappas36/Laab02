@@ -49,6 +49,7 @@ e = age % (age + 1)
 f = age**2
 print(a, b, c, d, e, f)
 
+#convert farenheit to celsius with input
 temp_farenheit = float(input(f"{name} enter a temperature in Farenheit: "))
 celsius = (temp_farenheit - 32) * (5/9)
 print(f"Temp Farenheit {temp_farenheit}°F in Celsius is {celsius}°C")
